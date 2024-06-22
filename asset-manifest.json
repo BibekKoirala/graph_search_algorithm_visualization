@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/graph_search_algorithm_visualization/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/graph_search_algorithm_visualization/static/js/main.09d7e3cd.chunk.js",
+    "main.js.map": "/graph_search_algorithm_visualization/static/js/main.09d7e3cd.chunk.js.map",
+    "runtime-main.js": "/graph_search_algorithm_visualization/static/js/runtime-main.93f70a16.js",
+    "runtime-main.js.map": "/graph_search_algorithm_visualization/static/js/runtime-main.93f70a16.js.map",
+    "static/js/2.08b00334.chunk.js": "/graph_search_algorithm_visualization/static/js/2.08b00334.chunk.js",
+    "static/js/2.08b00334.chunk.js.map": "/graph_search_algorithm_visualization/static/js/2.08b00334.chunk.js.map",
+    "static/js/3.565fe4c4.chunk.js": "/graph_search_algorithm_visualization/static/js/3.565fe4c4.chunk.js",
+    "static/js/3.565fe4c4.chunk.js.map": "/graph_search_algorithm_visualization/static/js/3.565fe4c4.chunk.js.map",
+    "index.html": "/graph_search_algorithm_visualization/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/graph_search_algorithm_visualization/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.08b00334.chunk.js.LICENSE.txt": "/graph_search_algorithm_visualization/static/js/2.08b00334.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93f70a16.js",
+    "static/js/2.08b00334.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.09d7e3cd.chunk.js"
+  ]
+}
