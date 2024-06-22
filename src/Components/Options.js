@@ -7,6 +7,7 @@ import {
   InputLabel,
   FormControl,
   MenuItem,
+  Slider
 } from "@material-ui/core";
 
 function Options(props) {
@@ -17,11 +18,15 @@ function Options(props) {
       elevation={5}
     >
       <Typography
-        variant="h6"
+        variant="h4"
         style={{ textAlign: "center", margin: "10px", fontWeight: "bold`" }}
       >
-        OPTIONS
+        Options
       </Typography>
+
+      {/* <h2>Graph Search Algorithm Visualization Instructions</h2> */}
+      
+
       <Grid
         container
         style={{ padding: 20 }}
@@ -67,23 +72,19 @@ function Options(props) {
         </FormControl>
 
         <FormControl style={{ minWidth: 120 }}>
-          <InputLabel id="anim-select-id">Animation Time (ms)</InputLabel>
-          <Select
-            value={props.animTime}
-            labelId="anim-select-id"
-            id="anim-select"
-            onChange={(e) => props.setAnim(e.target.value)}
-          >
-            {props.animTimes.map((algo, index) => {
-              return (
-                <MenuItem key={index} value={algo}>
-                  {" "}
-                  {algo}
-                </MenuItem>
-              );
-            })}
-          </Select>
-        </FormControl>
+        <InputLabel id="anim-slider-label">Animation Time ( {props.animTime} ms)</InputLabel>
+        <Slider
+          value={props.animTime}
+          onChange={(e, newValue)=> props.setAnim(newValue)}
+          aria-labelledby="anim-slider-label"
+          valueLabelDisplay="auto"
+          step={50} // Adjust as needed
+          marks // Display marks on the slider
+          min={0} // Adjust minimum value
+          max={500} // Adjust maximum value
+        />
+      
+      </FormControl>
 
         <FormControl style={{ minWidth: 120 }}>
           <InputLabel id="gridsize-select-id">GridSize</InputLabel>
