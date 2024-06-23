@@ -4,6 +4,7 @@ This project is a visualization tool for graph search algorithms including Bread
 
 ## Table of Contents
 - [Description](#description)
+- [Demo](#demo)
 - [Algorithms](#algorithms)
   - [BFS (Breadth-First Search)](#bfs-breadth-first-search)
   - [DFS (Depth-First Search)](#dfs-depth-first-search)
@@ -16,6 +17,10 @@ This project is a visualization tool for graph search algorithms including Bread
 ## Description
 
 This React application visualizes various graph search algorithms. Users can configure the algorithm type, grid type, animation times, and grid size before starting the search. The visualization helps in understanding how different algorithms explore the graph.
+
+## Demo
+
+Check out the live demo of the application [here](https://bibekkoirala.github.io/graph_search_algorithm_visualization/).
 
 ## Algorithms
 
@@ -34,8 +39,8 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/graph-search-visualization.git
-   cd graph-search-visualization
+   git clone https://github.com/BibekKoirala/graph_search_algorithm_visualization.git
+   cd graph_search_algorithm_visualization
 
 2. Install the dependencies:
     ```bash
