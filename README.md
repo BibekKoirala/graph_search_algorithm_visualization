@@ -71,6 +71,7 @@ Contributions are welcome! Please open an issue or submit a pull request with yo
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-    ```css
-    Feel free to customize the repository URL and any other specific details according to your project setup. This `README.md` file provides a comprehensive guide for users to understand, run, and contribute to your project.
+This project is licensed under the MIT License. See the LICENSE file for details. Feel free to customize the repository URL and any other specific details according to your project setup. 
+
+
+This `README.md` file provides a comprehensive guide for users to understand, run, and contribute to your project.
