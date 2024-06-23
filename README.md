@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Graph Search Algorithm Visualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a visualization tool for graph search algorithms including Breadth-First Search (BFS), Depth-First Search (DFS), and A* (A Star). The app allows users to select an algorithm, grid type, animation times, and grid size to visualize the search process.
 
-## Available Scripts
+## Table of Contents
+- [Description](#description)
+- [Algorithms](#algorithms)
+  - [BFS (Breadth-First Search)](#bfs-breadth-first-search)
+  - [DFS (Depth-First Search)](#dfs-depth-first-search)
+  - [A* (A Star)](#a-a-star)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## Description
 
-### `yarn start`
+This React application visualizes various graph search algorithms. Users can configure the algorithm type, grid type, animation times, and grid size before starting the search. The visualization helps in understanding how different algorithms explore the graph.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Algorithms
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### BFS (Breadth-First Search)
+BFS is an algorithm for traversing or searching tree or graph data structures. It starts at the root (or an arbitrary node) and explores all the neighbor nodes at the present depth prior to moving on to nodes at the next depth level.
 
-### `yarn test`
+### DFS (Depth-First Search)
+DFS is an algorithm for traversing or searching tree or graph data structures. It starts at the root (or an arbitrary node) and explores as far as possible along each branch before backtracking.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### A* (A Star)
+A* is a graph traversal and path search algorithm that is often used in many fields of computer science due to its completeness, optimality, and optimal efficiency. It uses a best-first search and finds the least-cost path from a given initial node to one goal node.
 
-### `yarn build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/graph-search-visualization.git
+   cd graph-search-visualization
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install the dependencies:
+    ```bash
+    npm install
 
-### `yarn eject`
+3. Start the development server:
+    ```bash
+    npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Open your browser and navigate to http://localhost:3000.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To use the application:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Open the app in your browser.
+2. Select an algorithm from the dropdown menu.
+3. Select a grid type from the dropdown menu. You must select both a start and stop grid type for the search to start.
+4. Optionally, set the animation time in milliseconds.
+5. Optionally, set the grid size.
+6. Click "Start Search" to begin the visualization.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! Please open an issue or submit a pull request with your changes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Make your changes.
+4. Commit your changes (git commit -m 'Add new feature').
+5. Push to the branch (git push origin feature-branch).
+6. Open a pull request.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Analyzing the Bundle Size
+css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize the repository URL and any other specific details according to your project setup. This `README.md` file provides a comprehensive guide for users to understand, run, and contribute to your project.
